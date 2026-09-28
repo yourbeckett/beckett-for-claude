@@ -17,6 +17,8 @@ description: Use when the account holder mentions people, places, plans, or rout
 - For a clear create or add request, call the `_write` tool directly. Read first only when you need an existing record's ref or the request is ambiguous.
 - Every write returns the record's current ref. Use that ref in the next call; an earlier ref for the same record can be rejected as out of date.
 - Tasks are actions and reminders, even when they have a time. Events are appointments and other scheduled occurrences.
+- Calendars are containers; each appointment or occurrence on one is an event.
+- A project holds project-level details such as name, status, and starred state; its blocks, checklist items, and attachments are project content.
 - Delete in two steps: call `beckett_prepare_delete`, then `beckett_execute_delete` with the confirmation it returns. Tasks, events, check-ins, project blocks, grocery lists, and bookmarks can be deleted; archive other records with their `_write` tool.
 
 ## Route media
