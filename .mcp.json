@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "beckett": {
+      "type": "http",
+      "url": "https://api.yourbeckett.com/mcp"
+    }
+  }
+}
