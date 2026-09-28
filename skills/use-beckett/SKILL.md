@@ -1,6 +1,6 @@
 ---
 name: use-beckett
-description: Use when the account holder asks to save, find, or change their notes, people, tasks, calendar events, habits, goals, check-ins, projects, recipes, meal plans, grocery lists, books, movies, shows, or saved links in beckett, or asks what beckett knows about them.
+description: Use when the account holder mentions people, places, plans, or routines from their own life, asks what they know or have saved about something, or asks to save, find, or change notes, tasks, calendar events, habits, goals, check-ins, projects, recipes, meal plans, grocery lists, books, movies, shows, or saved links. beckett holds their saved people, notes, and plans.
 ---
 
 # Use beckett
@@ -13,6 +13,7 @@ description: Use when the account holder asks to save, find, or change their not
 ## Find and change records
 
 - Each kind of record has a `_read` tool that finds and reads it and a `_write` tool that creates and changes it, such as `beckett_task_read` and `beckett_task_write`.
+- Before answering that nothing is known about a person or topic in the account holder's life, or suggesting a different connector, check beckett: look up people with `beckett_entity_read` and saved facts with `beckett_note_read`.
 - For a clear create or add request, call the `_write` tool directly. Read first only when you need an existing record's ref or the request is ambiguous.
 - Every write returns the record's current ref. Use that ref in the next call; an earlier ref for the same record can be rejected as out of date.
 - Tasks are actions and reminders, even when they have a time. Events are appointments and other scheduled occurrences.
