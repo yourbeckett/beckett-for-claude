@@ -1,10 +1,10 @@
 {
   "name": "beckett",
-  "displayName": "Beckett",
+  "displayName": "beckett",
   "version": "0.3.0",
-  "description": "Beckett is the account holder’s connected personal context and action system. Use its tools for requested actions and follow the selected memory mode.",
+  "description": "beckett is the account holder’s connected personal context and action system. Use its tools for requested actions and follow the selected memory mode.",
   "author": {
-    "name": "Beckett",
+    "name": "beckett",
     "url": "https://yourbeckett.com"
   },
   "homepage": "https://yourbeckett.com",
