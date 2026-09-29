@@ -9,5 +9,7 @@
   },
   "homepage": "https://yourbeckett.com",
   "license": "MIT",
-  "privacyPolicyUrl": "https://yourbeckett.com/privacy"
+  "privacyPolicyUrl": "https://yourbeckett.com/privacy",
+  "repository": "https://github.com/yourbeckett/beckett-for-claude",
+  "documentationUrl": "https://github.com/yourbeckett/beckett-for-claude#readme"
 }
