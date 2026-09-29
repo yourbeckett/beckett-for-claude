@@ -1,8 +1,10 @@
 # beckett
 
-beckett keeps your notes, people, tasks, calendars, habits, projects, recipes, meal plans, grocery lists, books, movies, shows, and saved links in one place that you and Claude both work in. Anything Claude adds shows up in the beckett app on iPhone, web, and Mac, and anything you change there is available to Claude.
+beckett is one place for everything you're keeping track of: notes, tasks and reminders, calendars, projects, habits and goals, recipes and meal plans, lists, and the people who matter to you. This plugin connects Claude to your beckett account, so you can ask about any of it or make changes in plain language.
 
-This plugin connects Claude to your beckett account and adds a skill that teaches Claude which beckett tool to use and when to check or save memory.
+Ask about your week, a project, or a person, and Claude answers from what you've saved. New tasks, notes, and plans land in the right place in beckett, ready for you to open, change, or delete. The same beckett works on iPhone, iPad, Mac, and the web, and with ChatGPT and the other agents you connect.
+
+The plugin also adds a skill that helps Claude choose the right beckett tool for each request.
 
 ## Requirements
 
@@ -14,20 +16,21 @@ A beckett account with an active subscription or free trial. Sign up at [yourbec
 2. On the plugin's **Connectors** tab, connect beckett and sign in with your beckett account.
 3. On the beckett consent screen, choose a memory mode and approve the connection:
    - **Manual**: Claude uses beckett memory only when you ask.
-   - **Automatic context**: Claude checks beckett before each substantive request and saves notes only when you ask.
-   - **Automatic memory**: Claude checks beckett before each substantive request and saves durable facts you state automatically.
+   - **Automatic context**: beckett asks Claude to check what you've saved before each substantive request. Notes are saved only when you ask.
+   - **Automatic memory**: beckett asks Claude to check what you've saved before each substantive request and to save durable facts you state.
 
 To change the memory mode, disconnect beckett in Claude's connector settings and connect again. To stop sharing, disconnect beckett there.
 
 ## Use it
 
-Ask Claude in plain language. For example:
+From a conversation with Claude, you can:
 
-- "Add oat milk and eggs to my grocery list."
-- "What do I have on my calendar Thursday?"
-- "Put Dune on my reading list."
-- "Plan dinners for next week from my saved recipes."
-- "Remember that my sister's birthday is March 4."
+- Keep track of people: who someone is, how you know them, and what you've noted about them
+- Plan your days with reminders, calendar events, and a focus list for today
+- Run projects with checklists, notes, and linked tasks
+- Track habits and goals, and look back at how things are going
+- Plan meals from your saved recipes and build the grocery list
+- Save links, books, movies, and shows for later
 
 Deleting takes two steps. Claude first prepares the deletion of one exact record, then deletes it with a short-lived confirmation.
 
@@ -35,7 +38,7 @@ Deleting takes two steps. Claude first prepares the deletion of one exact record
 
 The plugin itself stores nothing and runs no code on your computer. It points Claude at beckett's server, `https://api.yourbeckett.com/mcp`, which you authorize with OAuth.
 
-When Claude calls a beckett tool, it sends that request's details to beckett, such as a note to save or a search query. beckett returns the matching data from your account. beckett doesn't receive your full Claude conversation. What beckett stores and how long it keeps it is covered in the [beckett privacy policy](https://yourbeckett.com/privacy).
+When Claude calls a beckett tool, it sends that request's details to beckett, such as a note to save or a search query. beckett returns the matching data from your account. beckett doesn't receive your full Claude conversation. What beckett stores, and for how long, is covered in the [beckett privacy policy](https://yourbeckett.com/privacy).
 
 ## Support
 

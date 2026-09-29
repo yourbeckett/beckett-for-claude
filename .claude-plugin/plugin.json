@@ -2,11 +2,12 @@
   "name": "beckett",
   "displayName": "beckett",
   "version": "0.3.0",
-  "description": "beckett is the account holder’s connected personal context and action system. Use its tools for requested actions and follow the selected memory mode.",
+  "description": "Your notes, plans, projects, and people in beckett, where Claude can find and update them.",
   "author": {
     "name": "beckett",
     "url": "https://yourbeckett.com"
   },
   "homepage": "https://yourbeckett.com",
-  "license": "MIT"
+  "license": "MIT",
+  "privacyPolicyUrl": "https://yourbeckett.com/privacy"
 }
