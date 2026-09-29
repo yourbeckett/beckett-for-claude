@@ -15,9 +15,8 @@ A beckett account with an active subscription or free trial. Sign up at [yourbec
 1. Add the beckett plugin from the Claude directory.
 2. On the plugin's **Connectors** tab, connect beckett and sign in with your beckett account.
 3. On the beckett consent screen, choose a memory mode and approve the connection:
-   - **Manual**: Claude uses beckett memory only when you ask.
-   - **Automatic context**: beckett asks Claude to check what you've saved before each substantive request. Notes are saved only when you ask.
-   - **Automatic memory**: beckett asks Claude to check what you've saved before each substantive request and to save durable facts you state.
+   - **Automatic memory**: beckett asks Claude to save durable facts you share.
+   - **Manual**: Claude saves notes only when you ask.
 
 To change the memory mode, disconnect beckett in Claude's connector settings and connect again. To stop sharing, disconnect beckett there.
 

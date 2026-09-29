@@ -7,7 +7,7 @@ description: Use when the account holder mentions people, places, plans, or rout
 
 ## Follow the memory mode
 
-- beckett's server instructions state the memory mode the account holder chose for this connection. Follow them for when to call `beckett_prepare_turn` and `beckett_store_notes`.
+- beckett's server instructions state the memory mode the account holder chose for this connection. Follow them for when to call `beckett_store_notes`.
 - Save notes only for durable facts likely to matter later. Do not save requests, temporary details, guesses, secrets, beckett results, or anything the account holder says not to save.
 
 ## Find and change records
