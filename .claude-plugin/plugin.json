@@ -1,7 +1,7 @@
 {
   "name": "beckett",
   "displayName": "beckett",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Your notes, plans, projects, and people in beckett, where Claude can find and update them.",
   "author": {
     "name": "beckett",

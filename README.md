@@ -6,19 +6,14 @@ Ask about your week, a project, or a person, and Claude answers from what you've
 
 The plugin also adds a skill that helps Claude choose the right beckett tool for each request.
 
-## Requirements
-
-A beckett account with an active subscription or free trial. Sign up at [yourbeckett.com](https://yourbeckett.com).
-
 ## Set it up
 
 1. Add the beckett plugin from the Claude directory.
-2. On the plugin's **Connectors** tab, connect beckett and sign in with your beckett account.
-3. On the beckett consent screen, choose a memory mode and approve the connection:
-   - **Automatic memory**: beckett asks Claude to save durable facts you share.
-   - **Manual**: Claude saves notes only when you ask.
+2. On the plugin's **Connectors** tab, connect beckett. In Claude Code, run `/mcp` and choose beckett.
+3. Sign in to beckett, or create an account. A new account starts with a free week, no card needed.
+4. Approve the connection on the beckett consent screen.
 
-To change the memory mode, disconnect beckett in Claude's connector settings and connect again. To stop sharing, disconnect beckett there.
+To stop sharing, disconnect beckett in Claude's connector settings.
 
 ## Use it
 
