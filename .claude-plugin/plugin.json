@@ -1,7 +1,7 @@
 {
   "name": "beckett",
   "displayName": "beckett",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Your notes, plans, projects, and people in beckett, where Claude can find and update them.",
   "author": {
     "name": "beckett",
@@ -9,6 +9,7 @@
   },
   "homepage": "https://yourbeckett.com",
   "license": "MIT",
+  "keywords": ["beckett", "notes", "tasks", "reminders", "calendar", "projects", "people", "relationships", "habits", "goals", "recipes", "meal-planning", "grocery-list", "books", "movies", "tv-shows", "bookmarks", "memory"],
   "privacyPolicyUrl": "https://yourbeckett.com/privacy",
   "repository": "https://github.com/yourbeckett/beckett-for-claude",
   "documentationUrl": "https://github.com/yourbeckett/beckett-for-claude#readme"
