@@ -1,6 +1,6 @@
 # beckett
 
-beckett is one place for everything you're keeping track of: notes, tasks and reminders, calendars, projects, habits and goals, recipes and meal plans, lists, and the people who matter to you. This plugin connects Claude to your beckett account, so you can ask about any of it or make changes in plain language.
+[beckett](https://www.yourbeckett.com/) is one place for everything you're keeping track of: notes, tasks and reminders, calendars, projects, habits and goals, recipes and meal plans, lists, and the people who matter to you. This plugin connects Claude to your beckett account, so you can ask about any of it or make changes in plain language.
 
 Ask about your week, a project, or a person, and Claude answers from what you've saved. New tasks, notes, and plans land in the right place in beckett, ready for you to open, change, or delete. The same beckett works on iPhone, iPad, Mac, and the web, and with ChatGPT and the other agents you connect.
 
