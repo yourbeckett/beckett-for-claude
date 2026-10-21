@@ -1,16 +1,19 @@
 {
   "name": "beckett",
   "displayName": "beckett",
-  "version": "0.3.2",
-  "description": "Your notes, plans, projects, and people in beckett, where Claude can find and update them.",
+  "version": "0.4.0",
+  "description": "Notes that organize themselves, plus your tasks and reminders, calendar, grocery lists, recipes and meal plans, watchlists, birthdays, and habits. Claude can find and update any of it.",
   "author": {
     "name": "beckett",
     "url": "https://yourbeckett.com"
   },
   "homepage": "https://yourbeckett.com",
   "license": "MIT",
-  "keywords": ["beckett", "notes", "tasks", "reminders", "calendar", "projects", "people", "relationships", "habits", "goals", "recipes", "meal-planning", "grocery-list", "books", "movies", "tv-shows", "bookmarks", "memory"],
+  "keywords": ["beckett", "notes", "tasks", "reminders", "calendar", "projects", "people", "relationships", "birthdays", "habits", "goals", "recipes", "meal-planning", "grocery-list", "books", "movies", "tv-shows", "watchlist", "reading-list", "bookmarks", "memory"],
+  "icon": "./.claude-plugin/icon.svg",
   "privacyPolicyUrl": "https://yourbeckett.com/privacy",
+  "supportUrl": "https://yourbeckett.com/support",
+  "termsOfServiceUrl": "https://yourbeckett.com/terms",
   "repository": "https://github.com/yourbeckett/beckett-for-claude",
   "documentationUrl": "https://github.com/yourbeckett/beckett-for-claude#readme"
 }

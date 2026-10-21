@@ -4,7 +4,15 @@
 
 Ask about your week, a project, or a person, and Claude answers from what you've saved. New tasks, notes, and plans land in the right place in beckett, ready for you to open, change, or delete. The same beckett works on iPhone, iPad, Mac, and the web, and with ChatGPT and the other agents you connect.
 
-The plugin also adds a skill that helps Claude choose the right beckett tool for each request.
+The plugin also adds skills for everyday jobs, which you can pick from the `/` menu: `beckett:start`, `beckett:today`, `beckett:notes`, `beckett:people`, `beckett:birthdays`, `beckett:reminders`, `beckett:calendar`, `beckett:projects`, `beckett:check-ins`, `beckett:habits`, `beckett:recipes`, `beckett:meal-plan`, `beckett:grocery-list`, `beckett:watchlist`, and `beckett:bookmarks`. Another skill helps Claude choose the right beckett tool for each request.
+
+## Try asking
+
+- Set up a project for two weeks in Portugal in May: a day-by-day itinerary, a packing checklist, and what to book first.
+- Get me ready for tomorrow's meetings: what I've saved about each person and anything I still owe them.
+- Plan next week's dinners, using my saved recipes where you can, and add everything I need to my grocery list.
+- I'm making salmon bowls Tuesday and lemon chicken orzo Thursday. Put them on my meal plan and what I need on my grocery list.
+- Look at the books I've loved and suggest three I'd probably like next, then add them to my reading list.
 
 ## Set it up
 
